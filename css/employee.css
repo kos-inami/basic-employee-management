@@ -1,0 +1,144 @@
+a {
+    text-decoration: none;
+    color: unset;
+}
+a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+thead th {
+    cursor: pointer;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.accordion {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.panel {
+    display: none;
+    overflow: hidden;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left_nav {
+    width: 16%;
+    float: left;
+}
+ul {
+    list-style: none;
+    margin: 3.15em 0 0 0;
+    padding: 0;
+}
+li {
+    background-color: #dddddd;
+    margin: 0 0 1em 0;
+    padding: 1em;
+}
+
+main {
+    width: 82%;
+    float: right;
+    height: 100vh;
+}
+
+/* ____________________
+
+    DETAILS 
+____________________ */
+
+.details tbody tr {
+    background-color: unset;
+}
+.details th {
+    width: 20%;
+}
+.details img {
+    width: 120px;
+}
+.direct {
+    display: flex;
+}
+.direct a {
+    border: #ddd solid 1px;
+    margin: 1em 1em 0 0;
+    padding: .5em 1em;
+}
+.direct a:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ____________________
+
+    ADD EMPLOYEE
+____________________ */
+
+button {
+    border: #ddd solid 1px;
+    margin: 1em 1em 0 0;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ____________________
+
+    LIST EMPLOYEE
+____________________ */
+
+select {
+    border: #ddd solid 1px;
+    padding: .45em .5em;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.content button {
+    border: #ddd solid 1px;
+    margin: 1em 0 0 0;
+    padding: .5em 1em;
+    cursor: pointer;
+}
