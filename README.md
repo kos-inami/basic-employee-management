@@ -2,10 +2,17 @@
 This is a very basic employee management system used PHP and SQL.
 
 # Features
-1. List of employees (ID / Last Name / First Name / Birth Day / Employee Date / Employee Type / Photo / Notes)
-2. Updating and deleting the employees
-3. Adding employee
-4. Able to sort by employment types and each table titles.
+- List of employees (ID / Last Name / First Name / Birth Day / Employee Date / Employee Type / Photo / Notes)
+- Updating and deleting the employees
+- Adding employee
+- Able to sort by employment types and each table titles.
+
+# Technologies used
+- HTML
+- CSS
+- PHP
+- SQL
+- JavaScript
 
 # Author
 URL: http://onigiri.link/
